@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor0: #F7A997;
+    --cor1: #EB599F;
+    --cor2: #9461AD;
+    --cor3: #6964C4;
+    --cor4: #5F91BA;
+    --cor5: #FFFFFF;
+    --cor01: #eb59a094;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor3), var(--cor2));
+}
+
+header{
+    
+    padding: 15px;
+    text-align: center;
+    color: var(--cor5);
+    font-family: 'Licorice', cursive;
+    font-size: 2em;
+}
+
+nav{
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+nav a{
+    color: var(--cor5);
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 0 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: var(--cor01);
+    transition-duration: 1s;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+}
