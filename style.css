@@ -17,7 +17,7 @@
     --cor01: #eb59a094;
 }
 body{
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor3), var(--cor2));
 }
 
@@ -53,4 +53,23 @@ nav a:hover{
 main{
     max-width: 800px;
     margin: auto;
+}
+
+li.redes{
+    position: relative;
+    list-style: none;
+    padding: 10px;
+    color: var(--cor5);
+    font: 32px 'Licorice';
+}
+
+li.redes a{
+    color: var(--cor5);
+}
+
+li.redes p{
+    position: absolute;
+    display: inline-block;
+    color: var(--cor5);
+    top: 32%;
 }
