@@ -17,7 +17,7 @@
     --cor01: #eb59a094;
 }
 body{
-    height: 100%;
+    height: 100vh;
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor3), var(--cor2));
 }
 
@@ -55,6 +55,10 @@ main{
     margin: auto;
 }
 
+main ul.redes{
+    columns: 2;
+}
+
 li.redes{
     position: relative;
     list-style: none;
@@ -72,4 +76,19 @@ li.redes p{
     display: inline-block;
     color: var(--cor5);
     top: 32%;
+}
+
+img#shirley{
+    width: 100px;
+    border-radius: 50%;
+}
+
+#minicio{
+    position: relative;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    height: 70vh;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.3);
+    border-radius: 15px;
+    text-align: center;
 }
